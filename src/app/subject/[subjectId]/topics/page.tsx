@@ -89,7 +89,6 @@ const SubjectTopicsPage = () => {
                   className="mt-4"
                   width="500"
                   controls
-                  // ref={(el) => (videoRefs.current[topic.id] = el)} 
                   onTimeUpdate={() => handleVideoTimeUpdate(topic.id)}
                 >
                   Your browser does not support the video tag.
